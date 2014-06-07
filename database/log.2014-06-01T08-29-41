@@ -1,0 +1,32 @@
+2014-06-01T16:27:05.309+0800 [initandlisten] MongoDB starting : pid=6028 port=27017 dbpath=D:\UED\myblog\database\db 64-bit host=eliac
+2014-06-01T16:27:05.310+0800 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-06-01T16:27:05.310+0800 [initandlisten] db version v2.6.0
+2014-06-01T16:27:05.310+0800 [initandlisten] git version: 1c1c76aeca21c5983dc178920f5052c298db616c
+2014-06-01T16:27:05.310+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-06-01T16:27:05.310+0800 [initandlisten] allocator: system
+2014-06-01T16:27:05.310+0800 [initandlisten] options: { storage: { dbPath: "D:\UED\myblog\database\db" }, systemLog: { destination: "file", path: "D:\UED\myblog\database\log" } }
+2014-06-01T16:27:05.373+0800 [initandlisten] journal dir=D:\UED\myblog\database\db\journal
+2014-06-01T16:27:05.374+0800 [initandlisten] recover : no journal files present, no recovery needed
+2014-06-01T16:27:05.476+0800 [initandlisten] waiting for connections on port 27017
+2014-06-01T16:27:53.616+0800 [initandlisten] connection accepted from 127.0.0.1:52347 #1 (1 connection now open)
+2014-06-01T16:27:56.747+0800 [conn1] end connection 127.0.0.1:52347 (0 connections now open)
+2014-06-01T16:28:05.487+0800 [clientcursormon] mem (MB) res:38 virt:308
+2014-06-01T16:28:05.487+0800 [clientcursormon]  mapped (incl journal view):160
+2014-06-01T16:28:05.487+0800 [clientcursormon]  connections:0
+2014-06-01T16:29:29.707+0800 Ctrl-C signal
+2014-06-01T16:29:29.707+0800 [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2014-06-01T16:29:29.708+0800 [consoleTerminate] now exiting
+2014-06-01T16:29:29.708+0800 [consoleTerminate] dbexit: 
+2014-06-01T16:29:29.708+0800 [consoleTerminate] shutdown: going to close listening sockets...
+2014-06-01T16:29:29.708+0800 [consoleTerminate] closing listening socket: 492
+2014-06-01T16:29:29.708+0800 [consoleTerminate] shutdown: going to flush diaglog...
+2014-06-01T16:29:29.708+0800 [consoleTerminate] shutdown: going to close sockets...
+2014-06-01T16:29:29.708+0800 [consoleTerminate] shutdown: waiting for fs preallocator...
+2014-06-01T16:29:29.708+0800 [consoleTerminate] shutdown: lock for final commit...
+2014-06-01T16:29:29.709+0800 [consoleTerminate] shutdown: final commit...
+2014-06-01T16:29:29.711+0800 [consoleTerminate] shutdown: closing all files...
+2014-06-01T16:29:29.712+0800 [consoleTerminate] closeAllFiles() finished
+2014-06-01T16:29:29.712+0800 [consoleTerminate] journalCleanup...
+2014-06-01T16:29:29.713+0800 [consoleTerminate] removeJournalFiles
+2014-06-01T16:29:29.714+0800 [consoleTerminate] shutdown: removing fs lock...
+2014-06-01T16:29:29.715+0800 [consoleTerminate] dbexit: really exiting now

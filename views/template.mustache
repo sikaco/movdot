@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>movdot</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="{{meta_descriptidon}}">
+    <meta name="author" content="sikaco, sikaco0@gmail.com">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{{site_url}}}images/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="{{{site_url}}}images/favicon.ico">
+    <!--Bootstrap 3 stylesheet-->
+    <link rel="stylesheet" href="{{{site_url}}}stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="{{{site_url}}}stylesheets/bootstrap-theme.min.css">
+    <!--my stylesheet-->
+    <link rel="stylesheet" href="{{{site_url}}}stylesheets/style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1 id="title">
+            <span id="contacts" class="pull-right">
+                <a href="http://weibo.com/2687956157/profile?topnav=1&wvr=5&user=1" target="_blank">
+                    <img src="{{{site_url}}}images/weibo.jpg">
+                </a>
+                <a href="#"><img src="{{{site_url}}}images/weibo.jpg"></a>
+                <a href="#"><img src="{{{site_url}}}images/weibo.jpg"></a>
+            </span>
+            <span>- Sikaco的前端小窝 -</span>
+        </h1>
+        <nav>
+            <ul class="nav">
+                <li><a href="./">Home</a></li>
+                <li><a href="{{{site_url}}}archive">Archive</a></li>
+                <li><a href="{{{site_url}}}comments">Comments</a></li>
+                <li><a href="{{{site_url}}}about">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    {{>content}}
+    <footer>
+        <div>
+            &copy; 2014 Sikaco | powered by <a href="#" title="movdot" target="_blank">movdot</a> - A light blog system
+            that based on <a href="#" title="Node.JS" target="_blank">Node.JS</a>
+        </div>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议"
+                                                                                    src="{{{site_url}}}images/cc_80x15.png"/>
+        </a>
+        <a href="{{{site_url}}}login"><span class="glyphicon glyphicon-off" id="login"></span></a>
+    </footer>
+</div>
+
+<script src="{{{site_url}}}javascripts/jquery-2.1.0.min.js"></script>
+<script src="{{{site_url}}}javascripts/bootstrap.min.js"></script>
+<script src="{{{site_url}}}javascripts/basic.js"></script>
+</body>

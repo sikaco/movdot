@@ -1,0 +1,16 @@
+{
+    "name": "movdot-blog",
+    "description": "a blog system based on node.js and express",
+    "version": "0.0.1",
+    "private": false,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "3.5.1",
+        "mustache": "*",
+        "consolidate": "*",
+        "mongodb": "*",
+        "connect-mongo": ">= 0.1.7"
+    }
+}

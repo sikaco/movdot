@@ -1,0 +1,42 @@
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 768px;
+}
+
+#title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#contacts img {
+    width: 34px;
+    margin-bottom: 0;
+}
+
+.nav > li {
+    float: left;
+    width: 96px;
+    text-align: center;
+}
+
+#current {
+    background-color: #eeeeee;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 8px;
+    text-align: center;
+}
+
+#login {
+    color: #a8a8a8;
+    top: 2px;
+}
+
+#login:hover {
+    color: #808080;
+}
